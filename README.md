@@ -29,6 +29,9 @@ new WOW().init();
 var swiperTestimonial = new Swiper("#testimonialSlider", {
   slidesPerView: 1,
   effect: "fade",
+  autoplay: {
+      delay: 5000,
+  },
   spaceBetween: 30,
   pagination: {
     el: ".swiper-pagination",
